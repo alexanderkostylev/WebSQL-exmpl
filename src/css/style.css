@@ -1,13 +1,20 @@
-body, pre, p{
+body, pre, p, h3{
   margin: 0;
   padding: 0;
 }
+
+textarea {
+  resize: none;
+}
+
 .wrap {
   padding: 2vw 15vw 0;
 }
 .input{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  tex
 }
 .input__block {  
   display: inline-block;
@@ -21,4 +28,7 @@ body, pre, p{
 }
 .input__content__button{
   margin-top: 1vw;
+}
+.input__examples__content{
+  text-align:right;
 }

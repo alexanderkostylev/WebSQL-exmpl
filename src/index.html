@@ -11,18 +11,20 @@
   <main class="wrap">
     <section class="input">
       <div class="input__content input__block">
-        <textarea class=" input__content__textarea" type="text"></textarea>
+        <textarea class=" input__content__textarea" placeholder="INSERT INTO list (label) values (&#34;ss&#34;)"></textarea>
         <input class="input__content__button" type="button" value="Выполнить">
       </div>
       <div class="input__examples input__block">
         <p class="input__examples__content">
-          Примеры: <br />
+          <h3> Примеры: </h3>
           SELECT * FROM list<br />
-          INSERT INTO list (label) values("ss")<br />
-          DELETE FROM list<br />
+          INSERT INTO list (label) values ("ss")<br />
+          UPDATE list SET label = "22" WHERE id = 2 <br />
+          DELETE FROM list WHERE id = 1<br />
         </p>
       </div>
     </section>
+    <hr>
     <section class="output"></section>
     <script src="js/code.js"></script>
   </main>
